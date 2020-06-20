@@ -1,7 +1,7 @@
 syntax on
 
 set guicursor=
-set noshowmatch
+"set noshowmatch
 set relativenumber
 set nohlsearch
 set hidden
@@ -74,7 +74,7 @@ if executable('rg')
     let g:rg_derive_root='true'
 endif
 
-let loaded_matchparen = 1
+"let loaded_matchparen = 1
 let mapleader = " "
 
 let g:netrw_browse_split = 2

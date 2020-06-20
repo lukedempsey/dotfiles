@@ -6,7 +6,11 @@ sudo apt-get update && sudo apt-get install -y \
     tmux \
     git \
     wget \
-    zsh
+    zsh \
+    python3-pip
+
+#for python navigation in vim
+pip3 install jedi
 
 #setup zsh
 chsh -s /usr/bin/zsh root
